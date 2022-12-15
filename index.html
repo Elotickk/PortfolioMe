@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/527933ce5d.js" crossorigin="anonymous"></script>
+  <title>Portfolio | Gonzalo Romero</title>
+</head>
+
+<body>
+  <section id="home" class="section-home flex-center flex-column">
+    <div class="h1-boton">
+      <h1>
+        Hola, soy <span>Gonzalo Romero</span>. <br />Front-End Dev
+      </h1>
+      <a href="#portfolio2" alt="Portfolio"><button class="button-home">Sobre mi <i class="fas fa-arrow-right"></i></button></a>
+    </div>
+    <video muted autoplay loop>
+      <source src="./img/scene-rainbow (1)-2x-RIFE-RIFE23-50fps.mp4" type="video/mp4">
+    </video>
+  </section>
+  <div class="nav-container" id="portfolio2">
+    <div class="wrapper">
+      <div class="nav-toggler">
+        <span class="span1"></span>
+        <span class="span2"></span>
+        <span class="span3"></span>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home" alt="Home">Inicio</a>
+          </li>
+          <li>
+            <a href="#about" alt="About">Sobre mi</a>
+          </li>
+          <li>
+            <a href="#portfolio" alt="Portfolio">Proyectos</a>
+          </li>
+          <li>
+            <a href="#contact" alt="Contact">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <section id="about" class="section-about">
+    <div class="wrapper flex-center flex-column">
+      <h2>Sobre mi</h2>
+      <div class="about-flex">
+        <div class="about-ftr1">
+          <div class="about-card">
+            <div class="hex-holder">
+              <div class="hexagon flex-center">
+                <i class="fas fa-tachometer-alt"></i>
+              </div>
+            </div>
+            <div class="hex-desc">
+              <h3>Rapido</h3>
+              <p>
+                Tiempos de carga rápidos e interacción sin demoras para una app web mas fluida.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-card">
+            <div class="hex-holder">
+              <div class="hexagon flex-center">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+            </div>
+            <div class="hex-desc">
+              <h3>Responsive</h3>
+              <p>Apps que funcionarán en cualquier dispositivo, grande ,mediano o pequeño.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-ftr2">
+          <div class="about-card">
+            <div class="hex-holder">
+              <div class="hexagon flex-center">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+            </div>
+            <div class="hex-desc">
+              <h3>Intuitivo</h3>
+              <p>Fuerte gusto por una UX/UI intuitiva y fácil de usar para el cliente.</p>
+            </div>
+          </div>
+
+          <div class="about-card">
+            <div class="hex-holder">
+              <div class="hexagon flex-center">
+                <i class="fas fa-rocket"></i>
+              </div>
+            </div>
+            <div class="hex-desc">
+              <h3>Dinamico</h3>
+              <p>
+                Los sitios web no tienen que ser estáticos, me encanta hacer que las páginas lleguen a tener
+                vida con animaciones.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="who-is flex-center">
+        <div class="my-card">
+          <img class="my-photo" src="img/fotocv.jpg" alt="Photo" />
+
+          <h3>¿Quien Soy?</h3>
+          <p>
+            ¡Hola! Soy Gonzalo, estudiante de diseño de software en la UNCA . Estoy aprendiendo desarrollo Full Stack en Coderhouse. 
+            Me encanta la tecnología,siempre de chico estuve apegado con ella y de aprender el mundo del IT. ¡Hay mucho en el mundo por optimizar, cambiar o crear! Busco entrar a una empresa inclusiva, donde se me dé la oportunidad de seguir aprendiendo, de crecer profesionalmente.
+            Si querés saber más de mí mándame un mensaje por privado o a mi correo público. ¡Espero saber de vos!
+            <a href="#contact" alt="contact">Hagamos algo especial.</a>
+          </p>
+          <div id="home2" class="flex-center">
+          <a download="CV-Gonzalo-Romero" href="CV.pdf"><button class="button-home">Descargar CV<i class="fas fa-arrow-right"></i></button></a>
+          </div>
+        </div>
+        <div class="skills">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section-portfolio">
+    <div class="wrapper flex-center flex-column">
+      <h2>PROYECTOS</h2>
+
+      <div class="projects-links">
+      </div>
+
+      <div class="projects-grid flex-center">
+
+        <div class="project" data-tech="react python">
+          <div class="flip">
+            <div>
+              <h4>CTA GAMING React E-Commerce</h4>
+              <span>Mi Proyecto final de react para coderhouse con</span>
+              <span>HTML / CSS / JS / REACT / SASS</span>
+            </div>
+            <button><a target="_blank" class="boton" href="#">Ver</a></button>
+          </div>
+        </div>
+
+        <div class="project" data-tech="angular python">
+          <div class="flip">
+            <div>
+              <h4>JMR Marroquineria</h4>
+              <span>Mi primer proyecto web creado para JMR Marroquineria maquetaje con HTML / CSS / SASS / Bootstrap</span>
+            </div>
+            <button><a target="_blank" class="boton" href="https://jmrmarroquineria.netlify.app">Ver</a></button>
+          </div>
+        </div>
+
+        <div class="project" data-tech="react ronr aem">
+          <div class="flip">
+            <div>
+              <h4>CTA GAMING Js E-commerce</h4>
+              <span>Mi proyecto final para el curso de coderhouse de Javascript hecho con HTML / CSS / JS / SASS / Bootstrap</span>
+            </div>
+            <button><a target="_blank" class="boton" href="https://ctagaming.netlify.app">Ver</a> </button>
+          </div>
+        </div>
+
+        <div class="project" data-tech="react ronr aem">
+          <div class="flip">
+            <div>
+              <h4>JMR STOCK</h4>
+              <span>Proyecto para JMR Marroquineria en donde estan todos sus productos hecho con HTML / CSS / JS </span>
+            </div>
+            <button><a target="_blank" class="boton" href="https://jmr-stock.netlify.app">Ver</a> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="section-contact flex-center flex-column">
+    <h2>CONTACTO</h2>
+    <form action="https://formsubmit.co/gonzalorom2001@gmail.com" method="POST" action="" name="questionsForm">
+      <div class="contact-container">
+        <h4 class="question">¿Tiene alguna pregunta o quiere trabajar juntos?</h4>
+        <div class="form-inputs">
+          <input type="text" placeholder="Nombre" class="name" name="name" />
+          <input type="text" placeholder="E-mail" class="email" name="email" />
+          <textarea rows="7" placeholder="Tu mensaje" class="message" name="comments"></textarea>
+          <button type="submit" class="sub-btn">ENVIAR</button>
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500">
+          <input type="hidden" name="_captcha" value="false">
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <a href="#home" alt="Up" class="up-link">
+      <div class="up-btn">>></div>
+    </a>
+    <div class="social-cntr">
+      <a target="_blank" href="https://www.linkedin.com/in/gonzaloromero-/"><div class="flex-center"><i class="fab fa-linkedin-in"></i></div></a>
+      <a target="_blank" href="https://www.facebook.com/gonzalo.romero.35110/"><div class="flex-center"><i class="fab fa-facebook-f"></i></div></a>
+      <a target="_blank" href="https://www.instagram.com/gonza.romer0/"><div class="flex-center"><i class="fab fa-instagram"></i></div></a>
+      <a target="_blank" href="https://github.com/Elotickk"><div class="flex-center"><i class="fas fa-cube"></i></div></a>
+    </div>
+
+    <h4>
+      Hecha por Gonzalo Romero <span class="copyright">& 2022</span>
+    </h4>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
